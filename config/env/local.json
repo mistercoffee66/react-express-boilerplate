@@ -1,9 +1,0 @@
-{
-  "app_server": {
-    "isDev": true,
-    "port": 3000,
-    "auth_routes": [],
-    "user": "",
-    "password": ""
-  }
-}
