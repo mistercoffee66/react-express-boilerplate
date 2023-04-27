@@ -14,6 +14,7 @@ module.exports = {
     // https://babeljs.io/docs/en/babel-polyfill
     entry: [
         // 'whatwg-fetch', // fetch polyfill, IE11 only
+        'webpack-hot-middleware/client',
         path.resolve(__dirname, 'app/index.jsx')
     ],
 
@@ -21,10 +22,6 @@ module.exports = {
         path: path.resolve(__dirname, 'public/build'),
         filename: '[name].js',
         publicPath: '/'
-    },
-
-    devServer: {
-        static: path.resolve(__dirname, 'public/build'),
     },
 
     plugins: [

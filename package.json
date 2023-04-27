@@ -71,7 +71,6 @@
   },
   "scripts": {
     "start": "node server",
-    "dev-start": "webpack serve --open",
     "debug": "node --inspect server",
     "lint": "eslint ./ || true",
     "lint-fix": "eslint --fix ./ || true",
